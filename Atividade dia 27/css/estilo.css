@@ -23,15 +23,19 @@ header{
     display: flex;    
 }
 
-.logo{
-    margin-left: 10px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+.logo img{
+    width: 60px;
 }
 .menu li{
     margin-left: 10px;
 }
+
+    .menu li:hover{
+        text-decoration: underline;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
 
 .menu li a{
     color: white;
